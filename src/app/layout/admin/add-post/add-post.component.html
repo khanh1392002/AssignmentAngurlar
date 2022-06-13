@@ -1,0 +1,27 @@
+<form (ngSubmit)="onSubmit()">
+    <div class="mb-3">
+      <label for="exampleInputEmail1" class="form-label">Title</label>
+      <input type="text"  [(ngModel)]="post.title" class="form-control" name="title">
+    </div>
+    <div class="mb-3">
+      <label for="exampleInputPassword1" class="form-label">Img</label>
+      <input type="text"  [(ngModel)]="post.image" class="form-control" name="image">
+    </div>
+    <div class="mb-3">
+      <label for="exampleInputPassword1" class="form-label">CreateAt</label>
+      <input type="text"  [(ngModel)]="post.createAt" class="form-control" name="createAt">
+    </div>
+    <div class="mb-3">
+      <label for="exampleInputPassword1" class="form-label">CategoryPostID</label>
+      <input type="number" [(ngModel)]="post.categoryPostID" class="form-control" name="categoryPostID">
+    </div>
+    <div class="mb-3">
+      <label for="exampleInputPassword1" class="form-label">Short_desc</label>
+      <input type="text"  [(ngModel)]="post.short_desc" class="form-control" name="short_desc">
+    </div>
+    <div class="mb-3">
+      <label for="exampleInputPassword1" class="form-label">Desc</label>
+      <input type="text"  [(ngModel)]="post.desc" class="form-control" name="desc">
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>

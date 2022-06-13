@@ -1,0 +1,23 @@
+<table class="table">
+    <thead>
+      <tr>
+        <th scope="col">ID</th>
+        <th scope="col">Name</th>
+        <th scope="col">Position</th>
+        <th scope="col">About</th>
+        <th scope="col">CV</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let user of userList; let i = index">
+        <th scope="row">{{i + 1}}</th>
+        <td>{{user.name}}</td>
+        <td>{{user.position}}</td>
+        <td>{{user.about}}</td>
+        <td>{{user.cv}}</td>
+        <td><button class="btn btn-info">Detail</button></td>
+        <td><button class="btn btn-primary ms-1">Edit</button></td>
+        <td><button class="btn btn-danger ms-1" (click)="oneRemove(user.id!)">Remove</button></td>
+      </tr>
+    </tbody>
+  </table>

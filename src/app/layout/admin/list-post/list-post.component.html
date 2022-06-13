@@ -1,0 +1,28 @@
+<a routerLink="/admin/listPost/add">Add New</a>
+<table class="table">
+    <thead>
+      <tr>
+        <th scope="col">ID</th>
+        <th scope="col">Title</th>
+        <th scope="col">Img</th>
+        <th scope="col">CreateAt</th>
+        <th scope="col">CategoryPostID</th>
+        <th scope="col">Short_desc</th>
+        <th scope="col">Desc</th>
+        <th scope="col">Action</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let post of postList; let i = index">
+        <th scope="row">{{i + 1}}</th>
+        <td>{{post.title}}</td>
+        <td>{{post.image}}</td>
+        <td>{{post.createAt}}</td>
+        <td>{{post.categoryPostID}}</td>
+        <td>{{post.short_desc}}</td>
+        <td>{{post.desc}}</td>
+        <td><button class="btn btn-primary ms-1" routerLink="/admin/listPost/edit/{{post.id}}">Edit</button></td>
+        <td><button class="btn btn-danger ms-1" (click)="oneRemove(post.id!)">Remove</button></td>
+      </tr>
+    </tbody>
+  </table>

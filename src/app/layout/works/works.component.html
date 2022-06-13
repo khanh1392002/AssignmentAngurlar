@@ -1,0 +1,59 @@
+<section>
+    <div class="container">
+        <h3>Works</h3>
+        <div class="col" *ngFor="let post of postList; let i = index">
+            <div class="left">
+                <img src="../img/Rectangle 30.jpg" alt="">
+            </div>
+            <div class="right">
+                <h4>{{post.title}}</h4>
+                <div class="years">
+                    <span>{{post.createAt}}</span><a href="">{{post.categoryPostID}}</a>
+                </div>
+                <p>{{post.desc}}</p>
+            </div>
+        </div>
+        <!-- <div class="col">
+            <div class="left">
+                <img src="../img/Rectangle 32.jpg" alt="">
+            </div>
+            <div class="right">
+                <h4>Illustration</h4>
+                <div class="years">
+                    <span>2019</span><a href="">Express, Handlebars</a>
+                </div>
+                <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+                    Velit officia consequat duis enim velit mollit. 
+                    Exercitation veniam consequat sunt nostrud amet.</p>
+            </div>
+        </div>
+        <div class="col">
+            <div class="left">
+                <img src="../img/Rectangle 34.jpg" alt="">
+            </div>
+            <div class="right">
+                <h4>Typography</h4>
+                <div class="years">
+                    <span>2018</span><a href="">Express, Handlebars</a>
+                </div>
+                <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+                    Velit officia consequat duis enim velit mollit. 
+                    Exercitation veniam consequat sunt nostrud amet.</p>
+            </div>
+        </div>
+        <div class="col">
+            <div class="left">
+                <img src="../img/Rectangle 40.png" alt="">
+            </div>
+            <div class="right">
+                <h4>Components, Design</h4>
+                <div class="years">
+                    <span>2018</span><a href="">Express, Handlebars</a>
+                </div>
+                <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+                    Velit officia consequat duis enim velit mollit. 
+                    Exercitation veniam consequat sunt nostrud amet.</p>
+            </div>
+        </div> -->
+    </div>
+</section>

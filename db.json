@@ -1,0 +1,97 @@
+{
+    "user":[
+        {
+            "id": 1,
+            "name": "Khánh",
+            "position": "Programmer",
+            "about": "abc",
+            "cv": "123"
+        }
+    ],
+    "post":[
+        {
+            "id": 1,
+            "title": "Nodejs",
+            "image": "abc",
+            "createAt": "2020",
+            "categoryPostID": 1,
+            "short_desc": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+            "desc": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet."
+        },
+        {
+            "id": 2,
+            "title": "React",
+            "image": "abc",
+            "createAt": "2022",
+            "categoryPostID": 2,
+            "short-desc": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+            "desc": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet."
+        },
+        {
+            "id": 3,
+            "title": "HTML/CSS",
+            "image": "abc",
+            "createAt": "2021",
+            "categoryPostID": 3,
+            "short-desc": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+            "desc": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet."
+        }
+    ],
+    "categoryPost":[
+        {
+            "id": 1,
+            "name": "Nodejs"
+        },
+        {
+            "id": 2,
+            "name": "React"
+        },
+        {
+            "id": 3,
+            "name": "HTML/CSS"
+        }
+    ],
+    "project":[
+        {
+            "id": 1,
+            "title": "Nodejs",
+            "image": "abc",
+            "createAt": "2020",
+            "categoryPostID": 1,
+            "short-desc": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+            "desc": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet."
+        },
+        {
+            "id": 2,
+            "title": "React",
+            "image": "abc",
+            "createAt": "2022",
+            "categoryPostID": 2,
+            "short-desc": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+            "desc": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet."
+        },
+        {
+            "id": 3,
+            "title": "HTML/CSS",
+            "image": "abc",
+            "createAt": "2021",
+            "categoryPostID": 3,
+            "short-desc": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+            "desc": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet."
+        }
+    ],
+    "categoryProject":[
+        {
+            "id": 1,
+            "name": "Nodejs"
+        },
+        {
+            "id": 2,
+            "name": "React"
+        },
+        {
+            "id": 3,
+            "name": "HTML/CSS"
+        }
+    ]
+}
