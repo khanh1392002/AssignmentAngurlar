@@ -1,11 +1,11 @@
 <section>
     <div class="container">
-        <div class="rows">
+        <div class="rows" *ngFor="let user of userList; let i = index">
             <div class="rows__left" id="one">
-                <h2>Hi, I am Khanh</h2>
-                <span>Front-end Developer</span>
+                <h2>Hi, I am <span>{{user.name}}</span></h2>
+                <span>{{user.position}}</span>
                 <div class="spans">
-                    <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                    <p>{{user.about}}</p>
                 </div>
                 <button>Download Resume</button>
             </div>
@@ -25,17 +25,15 @@
                 <a href="">View all</a>
             </div>
         </div>
-        <div class="rows-2">
-            <div class="col">
-                <h4>Making a design system from scratch</h4>
+        <div class="rows-2" >
+            <div class="col" *ngFor="let post of postList | slice:0:2; let i = index">
+                <h4>{{post.title}}</h4>
                 <div class="date-ct">
-                    <span>12 Feb 2020</span>  <a href="">Design, Pattern</a>
+                    <span>{{post.createAt}}</span>  <a href="">{{post.categoryPostID}}</a>
                 </div>
-                <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
-                     Velit officia consequat duis enim velit mollit. 
-                     Exercitation veniam consequat sunt nostrud amet.</p>
+                <p>{{post.short_desc}}</p>
             </div>
-            <div class="col">
+            <!-- <div class="col">
                 <h4>Creating pixel perfect icons in Figma</h4>
                 <div class="date-ct">
                     <span>12 Feb 2020</span>  <a href="">Figma, Icon Design</a>
@@ -43,7 +41,7 @@
                 <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
                      Velit officia consequat duis enim velit mollit. 
                      Exercitation veniam consequat sunt nostrud amet.</p>
-            </div>
+            </div> -->
         </div>
 
     </div>
@@ -51,21 +49,19 @@
 <section>
     <div class="container">
         <h3>Featured works</h3>
-                <div class="rows-3">
+                <div class="rows-3" *ngFor="let blog of blogList | slice:0:3; let i = index">
                     <div class="rows-3-img">
-                        <img src="./../img/Rectangle 30.jpg" alt="">
+                        <img src="https://picsum.photos/200/150" alt="">
                     </div>
                     <div class="col-2">
-                        <h4>Designing Dashboards</h4>
+                        <h4>{{blog.name}}</h4>
                         <div class="years">
-                            <span>2020</span> <a href="">Dashboard</a>
+                            <span>{{blog.createAt}}</span> <a href="">{{blog.categoryProjectID}}</a>
                         </div>
-                        <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. 
-                            Velit officia consequat duis enim velit mollit. 
-                            Exercitation veniam consequat sunt nostrud amet.</p>
+                        <p>{{blog.short_desc}}</p>
                     </div>
                 </div>
-                <div class="rows-3">
+                <!-- <div class="rows-3">
                     <div class="rows-3-img">
                         <img src="./../img/Rectangle 32.jpg" alt="">
                     </div>
@@ -93,6 +89,6 @@
                             Velit officia consequat duis enim velit mollit. 
                             Exercitation veniam consequat sunt nostrud amet.</p>
                     </div>
-                </div>
+                </div> -->
     </div>
 </section>

@@ -1,0 +1,29 @@
+
+<table class="table">
+    <thead>
+      <tr>
+        <th scope="col">ID</th>
+        <th scope="col">Name</th>
+        <th scope="col">Img</th>
+        <th scope="col">CreateAt</th>
+        <th scope="col">CategoryProjectID</th>
+        <th scope="col">Short_desc</th>
+        <th scope="col">Desc</th>
+        <th scope="col">Action</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let blog of blogList; let i = index">
+        <th scope="row">{{i + 1}}</th>
+        <td>{{blog.name}}</td>
+        <td>{{blog.image}}</td>
+        <td>{{blog.createAt}}</td>
+        <td>{{blog.categoryProjectID}}</td>
+        <td>{{blog.short_desc}}</td>
+        <td>{{blog.desc}}</td>
+        <td><button class="btn btn-primary ms-1" routerLink="/admin/listProject/edit/{{blog.id}}">Edit</button></td>
+        <td><button class="btn btn-danger ms-1" (click)="oneRemove(blog.id!)">Remove</button></td>
+      </tr>
+    </tbody>
+  </table>
+

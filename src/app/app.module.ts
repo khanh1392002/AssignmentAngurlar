@@ -15,6 +15,7 @@ import { HttpClientModule } from '@angular/common/http'
 import { RouterModule } from '@angular/router';
 import { ListPostComponent } from './layout/admin/list-post/list-post.component';
 import { AddPostComponent } from './layout/admin/add-post/add-post.component';
+import { ListBlogComponent } from './layout/admin/list-blog/list-blog.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { AddPostComponent } from './layout/admin/add-post/add-post.component';
     HomeAdminComponent,
     ListUserComponent,
     ListPostComponent,
-    AddPostComponent
+    AddPostComponent,
+    ListBlogComponent
   ],
   imports: [
     BrowserModule,

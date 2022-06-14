@@ -31,3 +31,27 @@ ul{
     
     display: none;
 }
+@media screen and (max-width: 375px){
+    .rows{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    div#one{
+        order: 2;
+    }
+    div#two{
+        order: 1;
+    }
+    .top__menu{
+        display: none;
+    }
+    .top__menu-2{
+        display: block;
+        display: flex;
+        justify-content: flex-end;
+        padding-top: 50px ;
+        padding-right: 25px;
+        font-size: 30px;    
+    }
+}

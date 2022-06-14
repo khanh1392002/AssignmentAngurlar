@@ -37,14 +37,16 @@ export class AddPostComponent implements OnInit {
     if(id){
       this.postServiecs.updatePost(this.post).subscribe(data => {
         setTimeout(() => {
-          this.router.navigateByUrl('/listPost');
-        },3000)
+          this.router.navigateByUrl('/admin/listPost');
+          alert("Update thành công")
+        },1500)
       })
     }
     this.postServiecs.addPost(this.post).subscribe(data => {
       setTimeout(() => {
-        this.router.navigateByUrl('/listPost');
-      },3000)
+        this.router.navigateByUrl('/admin/listPost');
+        alert("Thêm thành công")
+      },1500)
     })
   }
 }

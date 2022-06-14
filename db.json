@@ -1,97 +1,124 @@
 {
-    "user":[
-        {
-            "id": 1,
-            "name": "Khánh",
-            "position": "Programmer",
-            "about": "abc",
-            "cv": "123"
-        }
-    ],
-    "post":[
-        {
-            "id": 1,
-            "title": "Nodejs",
-            "image": "abc",
-            "createAt": "2020",
-            "categoryPostID": 1,
-            "short_desc": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
-            "desc": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet."
-        },
-        {
-            "id": 2,
-            "title": "React",
-            "image": "abc",
-            "createAt": "2022",
-            "categoryPostID": 2,
-            "short-desc": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
-            "desc": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet."
-        },
-        {
-            "id": 3,
-            "title": "HTML/CSS",
-            "image": "abc",
-            "createAt": "2021",
-            "categoryPostID": 3,
-            "short-desc": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
-            "desc": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet."
-        }
-    ],
-    "categoryPost":[
-        {
-            "id": 1,
-            "name": "Nodejs"
-        },
-        {
-            "id": 2,
-            "name": "React"
-        },
-        {
-            "id": 3,
-            "name": "HTML/CSS"
-        }
-    ],
-    "project":[
-        {
-            "id": 1,
-            "title": "Nodejs",
-            "image": "abc",
-            "createAt": "2020",
-            "categoryPostID": 1,
-            "short-desc": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
-            "desc": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet."
-        },
-        {
-            "id": 2,
-            "title": "React",
-            "image": "abc",
-            "createAt": "2022",
-            "categoryPostID": 2,
-            "short-desc": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
-            "desc": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet."
-        },
-        {
-            "id": 3,
-            "title": "HTML/CSS",
-            "image": "abc",
-            "createAt": "2021",
-            "categoryPostID": 3,
-            "short-desc": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
-            "desc": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet."
-        }
-    ],
-    "categoryProject":[
-        {
-            "id": 1,
-            "name": "Nodejs"
-        },
-        {
-            "id": 2,
-            "name": "React"
-        },
-        {
-            "id": 3,
-            "name": "HTML/CSS"
-        }
-    ]
+  "user": [
+    {
+      "id": 1,
+      "name": "Khánh",
+      "position": "Front-end Developer",
+      "about": "abc",
+      "cv": "123"
+    }
+  ],
+  "post": [
+    {
+      "id": 1,
+      "title": "Nodejs",
+      "image": "abc",
+      "createAt": "2020",
+      "categoryPostID": 1,
+      "short_desc": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+      "desc": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet."
+    },
+    {
+      "id": 2,
+      "title": "React",
+      "image": "abc",
+      "createAt": "2022",
+      "categoryPostID": 2,
+      "short_desc": "Amet minim mollit non deserunt  Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+      "desc": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet."
+    },
+    {
+      "id": 3,
+      "title": "HTML/CSS",
+      "image": "abc",
+      "createAt": "2021",
+      "categoryPostID": 3,
+      "short_desc": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+      "desc": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet."
+    },
+    {
+      "title": "New add update 1",
+      "image": "anh 1",
+      "createAt": "13/6/2022",
+      "categoryPostID": 1,
+      "short_desc": "abc",
+      "desc": "abcdefghiklm",
+      "id": 5
+    },
+    {
+      "title": "Add new 1",
+      "image": "Anh 1",
+      "createAt": "13/6/2022",
+      "categoryPostID": 2,
+      "short_desc": "abc",
+      "desc": "abcefghiklmn",
+      "id": 6
+    },
+    {
+      "title": "add new 2",
+      "image": "anh 1",
+      "createAt": "13/6/2022",
+      "categoryPostID": 1,
+      "short_desc": "jaklhfs",
+      "desc": "123445",
+      "id": 7
+    }
+  ],
+  "categoryPost": [
+    {
+      "id": 1,
+      "name": "Nodejs"
+    },
+    {
+      "id": 2,
+      "name": "React"
+    },
+    {
+      "id": 3,
+      "name": "HTML/CSS"
+    }
+  ],
+  "project": [
+    {
+      "id": 1,
+      "name": "Nodejs",
+      "image": "abc",
+      "createAt": "2020",
+      "categoryProjectID": 1,
+      "short_desc": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+      "desc": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet."
+    },
+    {
+      "id": 2,
+      "name": "React",
+      "image": "abc",
+      "createAt": "2022",
+      "categoryProjectID": 2,
+      "short_desc": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+      "desc": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet."
+    },
+    {
+      "id": 3,
+      "name": "HTML/CSS",
+      "image": "abc",
+      "createAt": "2021",
+      "categoryProjectID": 3,
+      "short_desc": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+      "desc": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet."
+    }
+  ],
+  "categoryProject": [
+    {
+      "id": 1,
+      "name": "Nodejs"
+    },
+    {
+      "id": 2,
+      "name": "React"
+    },
+    {
+      "id": 3,
+      "name": "HTML/CSS"
+    }
+  ]
 }
